@@ -30,7 +30,11 @@ The portfolio showcases my profile, skills, projects, and contact information th
 
 ## 📸 Screenshots
 
-Add screenshots of your website here.
+<img width="938" height="437" alt="Screenshot 2026-08-19 202447" src="https://github.com/user-attachments/assets/63420444-b283-4c29-937a-cd1c1f045471" />
+<img width="942" height="439" alt="Screenshot 2026-08-19 202508" src="https://github.com/user-attachments/assets/c7155e8e-a841-41ef-b2c7-b4be3be6f5c0" />
+<img width="935" height="310" alt="Screenshot 2026-08-19 202535" src="https://github.com/user-attachments/assets/9aff4ad7-f050-4dfe-acfa-29839fff317c" />
+<img width="666" height="279" alt="Screenshot 2026-08-19 202543" src="https://github.com/user-attachments/assets/28381c5c-4e7e-4659-b24a-e5936b4c6c1d" />
+
 
 ## 🚀 How to Run
 
