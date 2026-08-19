@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arnav | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header>
+    <nav class="container">
+      <a href="#home" class="logo">arnav<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME / INTRO -->
+  <section id="home" class="hero container">
+    <p class="hero__prompt">console.log("hello world");</p>
+    <h1>Hi, I'm Arnav.</h1>
+    <p class="hero__tagline">
+      CS Engineering student who spends more time in VS Code than anywhere else.
+      Currently learning Spring Boot, playing with data, and slowly working
+      through JLPT N5 on the side.
+    </p>
+    <div class="hero__actions">
+      <a href="#projects" class="btn btn--filled">See my work</a>
+      <a href="resume.pdf" class="btn btn--outline" download>Download resume</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <h2 class="section__title"><span>01.</span> About Me</h2>
+    <div class="about__grid">
+      <div class="about__photo" aria-hidden="true">A</div>
+      <div class="about__text">
+        <p>
+          I'm a 4th semester Computer Science Engineering student. Most of my
+          semester right now is Advanced Java — Spring Boot, JDBC, JSP/Servlets —
+          along with a data science course that's got me actually enjoying
+          working with datasets instead of just fearing exams.
+        </p>
+        <p>
+          Outside of coursework, I'm usually training, watching Baki, or
+          following football. I like things that reward consistency over
+          talent — training, DSA, language learning, all of it works the
+          same way: show up daily, track progress, don't skip the boring part.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container">
+    <h2 class="section__title"><span>02.</span> Skills</h2>
+    <div class="skills__grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <ul class="tags">
+          <li>Java</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Frameworks &amp; Tools</h3>
+        <ul class="tags">
+          <li>Spring Boot</li>
+          <li>Spring Framework</li>
+          <li>JDBC</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Currently Learning</h3>
+        <ul class="tags">
+          <li>Data Science</li>
+          <li>REST APIs</li>
+          <li>Japanese (JLPT N5)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container">
+    <h2 class="section__title"><span>03.</span> Projects</h2>
+    <div class="projects__grid">
+      <article class="project-card">
+        <h3>FORGE — Fitness Landing Page</h3>
+        <p>
+          A dark-themed landing page for a fitness studio concept. Built with
+          plain HTML/CSS/JS as part of my CodSoft web development internship.
+        </p>
+        <div class="project-card__tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a href="#" class="project-card__link">View project →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>SafePay Guard</h3>
+        <p>
+          A fraud detection and payment protection concept built for a
+          hackathon, with a full presentation deck covering the problem and
+          proposed solution.
+        </p>
+        <div class="project-card__tags">
+          <span>Hackathon</span><span>Fraud Detection</span>
+        </div>
+        <a href="#" class="project-card__link">View project →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Wine Quality Analysis</h3>
+        <p>
+          Data science case study covering EDA, a Streamlit dashboard, and
+          five classification models to predict wine quality.
+        </p>
+        <div class="project-card__tags">
+          <span>Python</span><span>Streamlit</span><span>ML</span>
+        </div>
+        <a href="#" class="project-card__link">View project →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container">
+    <h2 class="section__title"><span>04.</span> Get In Touch</h2>
+    <p class="contact__text">
+      Still a student, always up for talking about projects, internships, or
+      just DSA problems I'm stuck on.
+    </p>
+    <div class="contact__links">
+      <a href="mailto:arnav@example.com">arnav@example.com</a>
+      <a href="tel:+911234567890">+91 12345 67890</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="container">&copy; <span id="year"></span> Arnav. Built with HTML, CSS &amp; JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
